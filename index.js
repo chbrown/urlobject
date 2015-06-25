@@ -94,6 +94,7 @@ Redundant properties are not part of the representation; for example:
 var Url = (function () {
     function Url(urlObj) {
         if (urlObj === void 0) { urlObj = {}; }
+        this.query = {};
         // use merge helper, even though it'll be overwriting everything, not really merging
         this.merge(urlObj);
     }

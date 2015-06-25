@@ -101,7 +101,7 @@ export class Url {
   hostname: string;
   port: string;
   path: string;
-  query: Query;
+  query: Query = {};
   hash: string;
 
   constructor(urlObj: any = {}) {
