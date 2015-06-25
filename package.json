@@ -1,0 +1,15 @@
+{
+  "name": "urlobject",
+  "description": "Manipulate URLs",
+  "keywords": [
+    "browser",
+    "dom",
+    "url"
+  ],
+  "version": "0.0.0",
+  "homepage": "https://github.com/chbrown/urlobject",
+  "repository": "git://github.com/chbrown/urlobject.git",
+  "bugs": "https://github.com/chbrown/urlobject/issues",
+  "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
+  "license": "MIT"
+}
