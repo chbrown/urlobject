@@ -1,4 +1,4 @@
-/*jslint browser: true */
+//// export module urlobject {
 /** Example results:
 
 querystring == '' -> {}
@@ -205,3 +205,4 @@ var Url = (function () {
     return Url;
 })();
 exports.Url = Url;
+//// }
