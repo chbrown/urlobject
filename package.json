@@ -14,5 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^2.7.2"
+  },
+  "scripts": {
+    "prepare": "tsc -d"
   }
 }

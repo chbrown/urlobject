@@ -1,5 +1,3 @@
-//// export module urlobject {
-
 export interface Query {
   [index: string]: string;
 }
@@ -215,5 +213,3 @@ export class Url {
     return parts.join('');
   }
 }
-
-//// }
